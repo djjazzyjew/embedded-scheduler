@@ -82,7 +82,8 @@ function EmbeddedIframe() {
                         width="1000"
                         src={`${encodeURI(
                           // Enter custom Nylas scheduling page URI as string
-                          "https://schedule.nylas.com/local-embedded-scheduler?name=Terry Hughes&email=terry.hughes@nylas.biz"
+                          // See https://developer.nylas.com/docs/user-experience/scheduler/ for more info
+                          "https://schedule.nylas.com/<scheduler page url slug goes here>?name=<prepopulated participant name>&email=<prepopulated participant email>"
                         )}`}
                       ></iframe>
                       </>
